@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'Woodland';
+    src: url(../fonts/PPWoodland-Bold.otf);
+}
+
+.content {
+    width: 70%;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF;
+}
+
+header{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #7EA663;
+}
+
+header .logo{
+    width: 12%;
+}
+
+header .logo img{
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: #FFF9EF;
+}
+
+header .avatar img{
+    width: 40px;
+    filter: invert(1);
+}
+
+#parceiro{
+    margin-top: 20px;
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#parceiro .logo-parceiro{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#parceiro .logo-parceiro img{
+    width: 100%;
+}
+
+#parceiro .slide-prod{
+    background-color: #7EA66340;
+    width: 75%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 115px 0 0 115px;
+    gap: 20px;    
+    z-index: 1;
+}
+
+#parceiro .slide-prod .produtos{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#parceiro .slide-prod .produtos .neutro{
+    width: 180px;
+}
+#parceiro .slide-prod .produtos .neutro img{
+    width: 100%;
+    z-index: 1;
+    transition: .3s ease-in-out;
+}
+
+#parceiro .slide-prod .produtos .neutro img:hover{
+    transform: scale(1.1);
+}
+
+#parceiro .slide-prod .produtos p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-family: 'Comfortaa', cursive;
+}
+
+#parceiro .slide-prod .produtos span h1{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#motivo{
+    padding: 25px 0;
+}
+
+#motivo .pqeaq h1{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Woodland';
+    font-weight: 700;
+    margin: 20px 0 40px;
+}
+
+#motivo .pqeaq p{
+    margin: 20px 175px 40px;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+#ofertas{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    gap: 10px;
+}
+
+#ofertas .base{
+    width: 17%;
+    height: 25vh;
+    background-color: #CB8B6780;
+    border-radius: 0 140px 140px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ofertas .base .oferta-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#ofertas .base .oferta-link a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8em;
+    font-family: 'Wooldland';
+    font-weight: 700;
+}
+
+#ofertas .oferta-prod{
+    width: 82%;
+    height: 25vh;
+    background-color: #CB8B6780;
+    border-radius: 140px 0 0 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#ofertas .oferta-prod .circ-prod{
+    width: 18%;
+    border-radius: 50%;
+    background-color: #FFF9EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ofertas .circ-prod a {
+    width: 90%;
+    border-radius: 50%;
+}
+
+#ofertas .circ-prod a img{
+    width: 100%;
+    border-radius: 50%;
+    transition: .3s ease-in-out;
+}
+
+#ofertas .circ-prod a img:hover{
+    transform: scale(1.1);
+}
+
+#dicas{
+    padding: 30px 0;
+}
+
+#dicas h1{
+    text-align: center;
+    font-family: 'Woodland';
+    font-size: 2em;
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+#dicas .central{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#dicas .central .circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #CB8B67;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dicas .central .circle img{
+    width: 60%;
+    filter: invert(5);
+}
+
+#dicas .central .circle-min{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #CB8B67;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+#dicas .central .circle-min img{
+    width: 50%;
+    filter: invert(100);
+}
+
+#dicas .central .circle-text{
+    width: 210px;
+    height: 343.500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#dicas .central .circle-text p{
+    margin: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1em;
+    background-color: #7EA663;
+    color: #FFF9EF;
+    font-family: 'Poppins', sans-serif;
+    height: 100px;
+}
+
+#historia .hist p{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Wooldland';
+    font-weight: 700;
+    margin: 50px 0;
+}
